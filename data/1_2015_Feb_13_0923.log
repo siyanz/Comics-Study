@@ -1,0 +1,83 @@
+1.0473 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.0598 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.0846 	WARNING 	Movie2 stim could not be imported and won't be available
+12.9196 	WARNING 	Monitor specification not found. Creating a temporary one...
+12.9202 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1600, 900]. Using actual size
+13.5119 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x08322300>, name='window1', pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5146 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+15.6442 	EXP 	Set  sound=C
+15.6880 	EXP 	Set  sound=fe\ringing_alarm.wav
+15.6880 	EXP 	Sound  set loops 10
+15.6885 	EXP 	Sound  started
+15.7354 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+15.9307 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+16.1309 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+16.3316 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+16.5321 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+16.7316 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+16.9319 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+17.1320 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+17.3323 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+17.5325 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+17.7328 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+17.9330 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+18.1332 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+18.3334 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+18.5336 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+18.7341 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+18.9341 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+19.1344 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+19.3346 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+19.5244 	DATA 	Keypress: right
+19.5348 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+19.5350 	EXP 	Sound  stopped
+19.7684 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+19.9686 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+20.1689 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+20.3692 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+20.5693 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+20.7428 	DATA 	Keypress: right
+20.7529 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+21.0149 	EXP 	Set  sound=fe\creature.wav
+21.0149 	EXP 	Sound  set loops 10
+21.0154 	EXP 	Sound  started
+21.0423 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+21.2535 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+21.4537 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+21.6412 	DATA 	Keypress: right
+21.6539 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+21.6541 	EXP 	Sound  stopped
+21.8542 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+22.0545 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+22.2546 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+22.4415 	DATA 	Keypress: right
+22.4548 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+22.7052 	EXP 	unnamed ImageStim: image = 'inks\\05.png'
+22.9221 	EXP 	unnamed ImageStim: image = 'inks\\05.png'
+23.1557 	EXP 	unnamed ImageStim: image = 'inks\\05.png'
+23.3609 	DATA 	Keypress: left
+23.3725 	EXP 	unnamed ImageStim: image = 'inks\\05.png'
+23.5728 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+23.7730 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+23.9570 	DATA 	Keypress: left
+23.9732 	EXP 	unnamed ImageStim: image = 'inks\\04.png'
+24.1588 	EXP 	Set  sound=fe\creature.wav
+24.1588 	EXP 	Sound  set loops 10
+24.1593 	EXP 	Sound  started
+24.1858 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+24.3904 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+24.5906 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+24.5908 	DATA 	Keypress: left
+24.5909 	EXP 	Sound  stopped
+24.7909 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+24.9911 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+25.1913 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+25.3915 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+25.5723 	DATA 	Keypress: escape
+25.5918 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
