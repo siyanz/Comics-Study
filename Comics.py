@@ -61,7 +61,7 @@ def right_pressed(addr, tags, data, source):
 # ---------------------------------------------
 #---- setup connection with OSC
 # ---------------------------------------------
-IPAD_IP = '128.237.215.147'
+IPAD_IP = '128.237.217.236'
 
 server = OSC.OSCServer(('0.0.0.0', 8000))
 client = OSC.OSCClient()
@@ -136,6 +136,16 @@ res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
 print "iV_SetupCalibration " + str(res)
 res = iViewXAPI.iV_Calibrate()
 print "iV_Calibrate " + str(res)
+outputfile = path_data + filename
+iViewXAPI.iV_SaveCalibration(outputfile)
+
+res = iViewXAPI.iV_Validate()
+print "iV_Validate " + str(res)
+
+res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
+print "iV_GetAccuracy " + str(res)
+print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
+print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
 
 
 # ---------------------------------------------
@@ -214,7 +224,6 @@ def close_server():
     print "Done"
     
 def write_txt(img, start, end, dur):
-    print "writing"
     msg = [img, start, end, dur]
     writer.writerow(msg)
     
@@ -227,7 +236,6 @@ while True:
     res = iViewXAPI.iV_GetSample(byref(sampleData))
     if res == 1:
         Image.setImage(image_path+images[index])
-        print("i am here")
         Image.draw(window)
         
         # Log the first image
@@ -344,11 +352,11 @@ while True:
             print('index' + str(index))
             print('len' + str(len(images)))
             
-#            smi_save()
+            smi_save()
             close_server()
             
             event.clearEvents()
-            window.close()
+            #window.close()
             core.quit()
         end_time = trial_clock.getTime()
         dur = end_time - start_time
@@ -364,5 +372,5 @@ while True:
 
 
 #end of this routine
-window.close()
+#window.close()
 core.quit()
