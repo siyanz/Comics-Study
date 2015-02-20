@@ -132,7 +132,7 @@ print "iViewX API Verion: " + str(systemData.API_MajorVersion) + "." + str(syste
 #---- configure and start calibration
 # ---------------------------------------------
 
-displayDevice = 0
+displayDevice = 1
 calibrationData = CCalibration(5, 1, displayDevice, 2, 1, 20, 239, 1, 10, b"")
 
 res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
@@ -167,7 +167,7 @@ while (accuracyData.deviationLX > 1) or (accuracyData.deviationLY > 1):
 #---- setup the Window
 # ---------------------------------------------
 
-window = visual.Window(size = [1600, 900],
+window = visual.Window(size = [1920, 1200],
     pos = [0, 0],
     color='white',
     units = u'pix',
