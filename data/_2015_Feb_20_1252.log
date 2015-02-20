@@ -1,0 +1,52 @@
+1.1055 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1184 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1741 	WARNING 	Movie2 stim could not be imported and won't be available
+3.2385 	WARNING 	Monitor specification not found. Creating a temporary one...
+3.2390 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1600, 900]. Using actual size
+3.8083 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0B2DC440>, name='window1', pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.8108 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+3.8165 	EXP 	Created unnamed Circle = Circle(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'pix', vertices=ndarray(...), win=Window(...))
+5.3245 	EXP 	Set  sound=C
+5.3303 	EXP 	Set  sound=fe\ringing_alarm.wav
+5.3303 	EXP 	Sound  set loops 10
+5.3308 	EXP 	Sound  started
+5.3568 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+5.3568 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+5.3568 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+5.5430 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+5.5430 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+5.5430 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+5.7432 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+5.7432 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+5.7432 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+5.9435 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+5.9435 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+5.9435 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+6.1437 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+6.1437 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+6.1437 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+6.3438 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+6.3438 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+6.3438 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+6.5442 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+6.5442 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+6.5442 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+6.7444 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+6.7444 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+6.7444 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+6.9446 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+6.9446 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+6.9446 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+7.1448 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+7.1448 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+7.1448 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+7.3266 	DATA 	Keypress: escape
+7.3451 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+7.3451 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+7.3451 	EXP 	unnamed Circle: pos = array([-650.,  502.])

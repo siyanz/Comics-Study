@@ -1,0 +1,64 @@
+1.0736 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.0866 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1312 	WARNING 	Movie2 stim could not be imported and won't be available
+8.5153 	WARNING 	Monitor specification not found. Creating a temporary one...
+8.5158 	WARNING 	User requested fullscreen with size [1680 1050], but screen is actually [1600, 900]. Using actual size
+9.0803 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0B15C440>, name='window1', pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.0822 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+9.0874 	EXP 	Created unnamed Circle = Circle(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'pix', vertices=ndarray(...), win=Window(...))
+10.6191 	EXP 	Set  sound=C
+10.6262 	EXP 	Set  sound=fe\ringing_alarm.wav
+10.6263 	EXP 	Sound  set loops 10
+10.6268 	EXP 	Sound  started
+10.6484 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+10.6484 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+10.6484 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+10.8485 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+10.8485 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+10.8485 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.0488 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+11.0488 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.0488 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.2490 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+11.2490 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.2490 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.4258 	DATA 	Keypress: right
+11.4325 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+11.4325 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.4325 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.4327 	EXP 	Sound  stopped
+11.6161 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+11.6161 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.6161 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.7996 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+11.7996 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.7996 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+11.9832 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+11.9832 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+11.9832 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+12.1667 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+12.1667 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+12.1667 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+12.3402 	DATA 	Keypress: right
+12.3515 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+12.3515 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+12.3515 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+12.5383 	EXP 	Set  sound=fe\creature.wav
+12.5383 	EXP 	Sound  set loops 10
+12.5387 	EXP 	Sound  started
+12.5694 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+12.5694 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+12.5694 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+12.7856 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+12.7856 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+12.7856 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+12.9697 	DATA 	Keypress: escape
+12.9858 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+12.9858 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+12.9858 	EXP 	unnamed Circle: pos = array([-650.,  502.])

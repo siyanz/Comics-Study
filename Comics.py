@@ -117,7 +117,10 @@ print "description: " + description
 
 res = iViewXAPI.iV_SetLogger(c_int(1), c_char_p("iViewXSDK_Python_GazeContingent_Demo.txt"))
 res = iViewXAPI.iV_Connect(c_char_p('127.0.0.1'), c_int(4444), c_char_p('127.0.0.1'), c_int(5555))
-
+if res != 1:
+    HandleError(res)
+    exit(0)
+    
 res = iViewXAPI.iV_GetSystemInfo(byref(systemData))
 print "iV_GetSystemInfo: " + str(res)
 print "Samplerate: " + str(systemData.samplerate)
@@ -130,7 +133,7 @@ print "iViewX API Verion: " + str(systemData.API_MajorVersion) + "." + str(syste
 # ---------------------------------------------
 
 displayDevice = 0
-calibrationData = CCalibration(5, 1, displayDevice, 0, 1, 20, 239, 1, 10, b"")
+calibrationData = CCalibration(5, 1, displayDevice, 2, 1, 20, 239, 1, 10, b"")
 
 res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
 print "iV_SetupCalibration " + str(res)
@@ -147,12 +150,24 @@ print "iV_GetAccuracy " + str(res)
 print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
 print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
 
+while (accuracyData.deviationLX > 1) or (accuracyData.deviationLY > 1):
+    res = iViewXAPI.iV_Calibrate()
+    print "iV_Calibrate " + str(res)
+    outputfile = path_data + filename
+    
+    res = iViewXAPI.iV_Validate()
+    print "iV_Validate " + str(res)
+    
+    res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
+    print "iV_GetAccuracy " + str(res)
+    print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
+    print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
 
 # ---------------------------------------------
 #---- setup the Window
 # ---------------------------------------------
 
-window = visual.Window(size = [1680, 1050],
+window = visual.Window(size = [1600, 900],
     pos = [0, 0],
     color='white',
     units = u'pix',
