@@ -1,0 +1,23 @@
+1.0952 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1073 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1446 	WARNING 	Movie2 stim could not be imported and won't be available
+5.7209 	WARNING 	Monitor specification not found. Creating a temporary one...
+5.7214 	WARNING 	User requested fullscreen with size [1920 1200], but screen is actually [1600, 900]. Using actual size
+5.8470 	DATA 	Keypress: escape
+6.4596 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0A5315A8>, name='window1', pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.4616 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+6.4666 	EXP 	Created unnamed Circle = Circle(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'pix', vertices=ndarray(...), win=Window(...))
+8.0397 	DATA 	Keypress: escape
+8.2493 	EXP 	Set  sound=C
+8.2581 	EXP 	Set  sound=fe\ringing_alarm.wav
+8.2582 	EXP 	Sound  set loops 10
+8.2588 	EXP 	Sound  started
+8.2908 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+8.2908 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+8.2908 	EXP 	unnamed Circle: pos = array([-650.,  502.])

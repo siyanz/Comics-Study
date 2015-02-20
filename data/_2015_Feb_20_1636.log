@@ -1,0 +1,163 @@
+1.0949 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1069 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+1.1453 	WARNING 	Movie2 stim could not be imported and won't be available
+45.5332 	WARNING 	Monitor specification not found. Creating a temporary one...
+47.1291 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0A5815A8>, name='window1', pos=[0, 0], screen=1, size=array([1920, 1200]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+47.1323 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+47.1373 	EXP 	Created unnamed Circle = Circle(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'pix', vertices=ndarray(...), win=Window(...))
+48.6879 	EXP 	Set  sound=C
+48.6939 	EXP 	Set  sound=fe\ringing_alarm.wav
+48.6940 	EXP 	Sound  set loops 10
+48.6944 	EXP 	Sound  started
+48.7448 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+48.7448 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+48.7448 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+48.9621 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+48.9621 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+48.9621 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+49.1623 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+49.1623 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+49.1623 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+49.3791 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+49.3791 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+49.3791 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+49.5634 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+49.5634 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+49.5634 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+49.7629 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+49.7629 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+49.7629 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+49.9963 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+49.9963 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+49.9963 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+50.1973 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+50.1973 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+50.1973 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+50.3981 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+50.3981 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+50.3981 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+50.5979 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+50.5979 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+50.5979 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+50.7978 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+50.7978 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+50.7978 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+50.9985 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+50.9985 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+50.9985 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+51.1981 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+51.1981 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+51.1981 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+51.3984 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+51.3984 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+51.3984 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+51.5993 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+51.5993 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+51.5993 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+51.8183 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+51.8183 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+51.8183 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+52.0327 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+52.0327 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+52.0327 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+52.2496 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+52.2496 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+52.2496 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+52.4485 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+52.4485 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+52.4485 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+52.6489 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+52.6489 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+52.6489 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+52.8488 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+52.8488 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+52.8488 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+53.0492 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+53.0492 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+53.0492 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+53.2493 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+53.2493 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+53.2493 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+53.4518 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+53.4518 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+53.4518 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+53.6494 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+53.6494 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+53.6494 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+53.8694 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+53.8694 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+53.8694 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+54.0671 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+54.0671 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+54.0671 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+54.2674 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+54.2674 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+54.2674 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+54.4848 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+54.4848 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+54.4848 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+54.6837 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+54.6837 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+54.6837 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+54.8797 	DATA 	Mouse: Left button down, pos=(1573,1200)
+54.8837 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+54.8837 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+54.8837 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+55.0743 	DATA 	Mouse: Left button up, pos=(1573,1200)
+55.0841 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+55.0841 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+55.0841 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+55.2848 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+55.2848 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+55.2848 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+55.4854 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+55.4854 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+55.4854 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+55.6762 	DATA 	Keypress: right
+55.6856 	EXP 	unnamed ImageStim: image = 'inks\\01.png'
+55.6856 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+55.6856 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+55.6859 	EXP 	Sound  stopped
+55.8849 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+55.8849 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+55.8849 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.0848 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+56.0848 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+56.0848 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.2617 	DATA 	Keypress: right
+56.2682 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+56.2682 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+56.2682 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.4521 	EXP 	Set  sound=fe\creature.wav
+56.4522 	EXP 	Sound  set loops 10
+56.4526 	EXP 	Sound  started
+56.5025 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+56.5025 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+56.5025 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.7027 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+56.7027 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+56.7027 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.8923 	DATA 	Keypress: left
+56.9029 	EXP 	unnamed ImageStim: image = 'inks\\03.png'
+56.9029 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+56.9029 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+56.9032 	EXP 	Sound  stopped
+57.0854 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+57.0854 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+57.0854 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+57.2858 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+57.2858 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+57.2858 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+57.4692 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+57.4692 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+57.4692 	EXP 	unnamed Circle: pos = array([-650.,  502.])
+57.6478 	DATA 	Keypress: escape
+57.6536 	EXP 	unnamed ImageStim: image = 'inks\\02.png'
+57.6536 	EXP 	unnamed Circle: fillColor = '[ 0.  0.  0.] (rgb)'
+57.6536 	EXP 	unnamed Circle: pos = array([-650.,  502.])

@@ -95,6 +95,16 @@ class CAccuracy(Structure):
 				("deviationRY",c_double)]
 				
 				
+                
+class CREDGeometry(Structure):
+	_fields_ = [("redGeometry", c_int),
+				("redInclAngle", c_int),
+				("redStimDistDepth", c_int),
+				("redStimDistHeight", c_int),
+				("setupName", c_char),
+				("stimX", c_int),
+				("stimY", c_int)]
+                
 #===========================
 #		Loading iViewX.dll 
 #===========================
@@ -113,5 +123,6 @@ rightEye = CEye(0,0,0)
 sampleData = CSample(0,leftEye,rightEye,0)
 eventData = CEvent('F', 'L', 0, 0, 0, 0, 0)
 accuracyData = CAccuracy(0,0,0,0)
+REDGeometry = CREDGeometry(1, 20, 16, 38, "O", 519, 324)
 
 

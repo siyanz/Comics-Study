@@ -131,9 +131,15 @@ print "iViewX API Verion: " + str(systemData.API_MajorVersion) + "." + str(syste
 # ---------------------------------------------
 #---- configure and start calibration
 # ---------------------------------------------
+geom = CREDGeometry(1, 20, 16, 38, "D", 519, 324)
+res = iViewXAPI.iV_SetREDGeometry(byref(geom))
+print "redGeometry " + str(geom.redGeometry)
+#print "geometry name " + str(REDGeometry.setupName)
+#print "geometry stimY " + str(REDGeometry.stimY)
+#print "geometry redStimDisDepth " + str(REDGeometry.redStimDistDepth)
 
 displayDevice = 1
-calibrationData = CCalibration(5, 1, displayDevice, 2, 1, 20, 239, 1, 10, b"")
+calibrationData = CCalibration(5, 1, displayDevice, 0, 1, 20, 239, 1, 10, b"")
 
 res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
 print "iV_SetupCalibration " + str(res)
@@ -172,9 +178,8 @@ window = visual.Window(size = [1920, 1200],
     color='white',
     units = u'pix',
     fullscr = True,
-    screen = 0,
-    allowGUI = False,
-    monitor = 'PrimaryMonitor'
+    screen = 1,
+    allowGUI = False
     )
     
 
@@ -184,7 +189,7 @@ window = visual.Window(size = [1920, 1200],
 # ---------------------------------------------
 directory = os.getcwd()
 
-Image = visual.ImageStim(window, pos=(0, 0), units='height', size=(1))
+Image = visual.ImageStim(window, pos=(0, 0))
 
 images = [] 
 path = directory + "\\inks\\"
@@ -246,6 +251,7 @@ while True:
 
 	# update gaze event 
     res = iViewXAPI.iV_GetEvent(byref(eventData))
+    print "X: " + str(eventData.positionX)
     
 	# update gaze data sample
     res = iViewXAPI.iV_GetSample(byref(sampleData))
