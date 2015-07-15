@@ -1,0 +1,646 @@
+0.7588 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+0.7667 	ERROR 	avbin.dll failed to load.
+                     Try importing psychopy.visual as the first library
+                     (before anything that uses scipy)
+                     and make sure that avbin is installed.
+0.7915 	WARNING 	Movie2 stim could not be imported and won't be available
+3.6997 	WARNING 	Monitor specification not found. Creating a temporary one...
+4.2963 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='white', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0826CC60>, name='window1', pos=[0, 0], screen=1, size=array([1920, 1200]), stereo=False, units=u'pix', useFBO=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.2979 	EXP 	Created unnamed ImageStim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'pix', win=Window(...))
+4.3022 	EXP 	Created unnamed Circle = Circle(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'pix', vertices=ndarray(...), win=Window(...))
+5.7696 	EXP 	Set  sound=C
+5.7749 	EXP 	Set  sound=fe\ringing_alarm.wav
+5.7750 	EXP 	Sound  set loops 10
+5.7754 	EXP 	Sound  started
+5.7967 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+5.7967 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+5.8967 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+5.8967 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+5.9957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+5.9957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.0965 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.0965 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.1960 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.1960 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.2990 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.2990 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.3969 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.3969 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.4961 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.4961 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.5957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.5957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.6959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.6959 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.7957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.7957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.8965 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.8965 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+6.9958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+6.9958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.0968 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.0968 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.1972 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.1972 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.2978 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.2978 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.3959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.3959 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.4957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.4957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.5957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.5957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.6958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.6958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.7984 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.7984 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.8959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.8959 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+7.9958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+7.9958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.0958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.0958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.1958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.1958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.2958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.2958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.3976 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.3976 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.4982 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.4982 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.5978 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.5978 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.6986 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.6986 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.7959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.7959 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.8984 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.8984 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+8.9958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+8.9958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.0992 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.0992 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.1958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.1958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.2958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.2958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.3959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.3959 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.4957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.4957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.5958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.5958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.6958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.6958 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.7955 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.7955 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.8988 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.8988 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+9.9957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+9.9957 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.0982 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.0982 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.1973 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.1973 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.2972 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.2972 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.3981 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.3981 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.4972 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.4972 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.5970 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.5970 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.6800 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.6800 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.7792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.7792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.8792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.8792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+10.9792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+10.9792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.0792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.0792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.1792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.1792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.2791 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.2791 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.3790 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.3790 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.4789 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.4789 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.5793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.5793 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.6793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.6793 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.7792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.7792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.8793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.8793 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+11.9793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+11.9793 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.0792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.0792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.1792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.1792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.2792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.2792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.3797 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.3797 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.4792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.4792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.5792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.5792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.6792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.6792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.7792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.7792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.8793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.8793 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.9683 	DATA 	Keypress: right
+12.9792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+12.9792 	EXP 	unnamed ImageStim: image = 'inks\\01.jpg'
+12.9795 	EXP 	Sound  stopped
+13.0792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.0792 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.1791 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.1791 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.2792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.2792 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.3793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.3793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.4794 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.4794 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.5793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.5793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.6793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.6793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.7793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.7793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.8793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.8793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+13.9793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+13.9793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+14.0626 	DATA 	Keypress: right
+14.0793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.0793 	EXP 	unnamed ImageStim: image = 'inks\\02.jpg'
+14.1746 	EXP 	Set  sound=fe\creature.wav
+14.1746 	EXP 	Sound  set loops 10
+14.1750 	EXP 	Sound  started
+14.1981 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.1981 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.2957 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.2957 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.3958 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.3958 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.4959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.4959 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.5959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.5959 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.6987 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.6987 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.7977 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.7977 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.8975 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.8975 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+14.9981 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+14.9981 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+15.0986 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.0986 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+15.1991 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.1991 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+15.2780 	DATA 	Keypress: right
+15.2989 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.2989 	EXP 	unnamed ImageStim: image = 'inks\\03.jpg'
+15.2998 	EXP 	Sound  stopped
+15.3981 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.3981 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.4986 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.4986 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.5984 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.5984 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.6994 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.6994 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.7982 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.7982 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.8982 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.8982 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+15.9976 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+15.9976 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+16.0989 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.0989 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+16.2000 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.2000 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+16.2979 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.2979 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+16.3758 	DATA 	Keypress: right
+16.3987 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.3987 	EXP 	unnamed ImageStim: image = 'inks\\04.jpg'
+16.4959 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.4959 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+16.5799 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.5799 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+16.7317 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.7317 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+16.8314 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.8314 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+16.9329 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+16.9329 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+17.0291 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.0291 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+17.1294 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.1294 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+17.2193 	DATA 	Keypress: right
+17.2293 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.2293 	EXP 	unnamed ImageStim: image = 'inks\\05.jpg'
+17.3317 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.3317 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.4312 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.4312 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.5315 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.5315 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.6292 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.6292 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.7293 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.7293 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.8293 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.8293 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+17.9151 	DATA 	Keypress: right
+17.9311 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+17.9311 	EXP 	unnamed ImageStim: image = 'inks\\06.jpg'
+18.0338 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.0338 	EXP 	unnamed ImageStim: image = 'inks\\07.jpg'
+18.1305 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.1305 	EXP 	unnamed ImageStim: image = 'inks\\07.jpg'
+18.2308 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.2308 	EXP 	unnamed ImageStim: image = 'inks\\07.jpg'
+18.3319 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.3319 	EXP 	unnamed ImageStim: image = 'inks\\07.jpg'
+18.4109 	DATA 	Keypress: right
+18.4314 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.4314 	EXP 	unnamed ImageStim: image = 'inks\\07.jpg'
+18.5141 	EXP 	Set  sound=fe\push.wav
+18.5141 	EXP 	Sound  set loops 10
+18.5146 	EXP 	Sound  started
+18.5311 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.5311 	EXP 	unnamed ImageStim: image = 'inks\\08.jpg'
+18.6134 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.6134 	EXP 	unnamed ImageStim: image = 'inks\\08.jpg'
+18.7127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.7127 	EXP 	unnamed ImageStim: image = 'inks\\08.jpg'
+18.8127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.8127 	EXP 	unnamed ImageStim: image = 'inks\\08.jpg'
+18.8950 	DATA 	Keypress: right
+18.9127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+18.9127 	EXP 	unnamed ImageStim: image = 'inks\\08.jpg'
+18.9129 	EXP 	Sound  stopped
+19.0127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.0127 	EXP 	unnamed ImageStim: image = 'inks\\09.jpg'
+19.1127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.1127 	EXP 	unnamed ImageStim: image = 'inks\\09.jpg'
+19.2127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.2127 	EXP 	unnamed ImageStim: image = 'inks\\09.jpg'
+19.3125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.3125 	EXP 	unnamed ImageStim: image = 'inks\\09.jpg'
+19.3966 	DATA 	Keypress: right
+19.4126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.4126 	EXP 	unnamed ImageStim: image = 'inks\\09.jpg'
+19.4991 	EXP 	Set  sound=fe\purr.wav
+19.4991 	EXP 	Sound  set loops 10
+19.4995 	EXP 	Sound  started
+19.5126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.5126 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+19.6126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.6126 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+19.7127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.7127 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+19.8127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.8127 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+19.9127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+19.9127 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+20.0127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.0127 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+20.1127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.1127 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+20.2020 	DATA 	Keypress: right
+20.2125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.2125 	EXP 	unnamed ImageStim: image = 'inks\\10.jpg'
+20.2127 	EXP 	Sound  stopped
+20.3123 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.3123 	EXP 	unnamed ImageStim: image = 'inks\\11.jpg'
+20.4125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.4125 	EXP 	unnamed ImageStim: image = 'inks\\11.jpg'
+20.5126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.5126 	EXP 	unnamed ImageStim: image = 'inks\\11.jpg'
+20.5128 	DATA 	Keypress: right
+20.5973 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.5973 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+20.6960 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.6960 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+20.7982 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.7982 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+20.8792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.8792 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+20.9632 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+20.9632 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+21.0665 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.0665 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+21.1375 	DATA 	Keypress: right
+21.1462 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.1462 	EXP 	unnamed ImageStim: image = 'inks\\12.jpg'
+21.2460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.2460 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.3459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.3459 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.4459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.4459 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.5459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.5459 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.6459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.6459 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.7288 	DATA 	Keypress: right
+21.7459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.7459 	EXP 	unnamed ImageStim: image = 'inks\\13.jpg'
+21.8460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.8460 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+21.9459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+21.9459 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+22.0459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.0459 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+22.1463 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.1463 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+22.2459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.2459 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+22.3253 	DATA 	Keypress: right
+22.3460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.3460 	EXP 	unnamed ImageStim: image = 'inks\\14.jpg'
+22.4460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.4460 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+22.5461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.5461 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+22.6460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.6460 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+22.7461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.7461 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+22.8458 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.8458 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+22.9281 	DATA 	Keypress: right
+22.9458 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+22.9458 	EXP 	unnamed ImageStim: image = 'inks\\15.jpg'
+23.0317 	EXP 	Set  sound=fe\shake_nobreak.wav
+23.0317 	EXP 	Sound  set loops 10
+23.0321 	EXP 	Sound  started
+23.0456 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.0456 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.1458 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.1458 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.2458 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.2458 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.3460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.3460 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.4460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.4460 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.5460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.5460 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.6287 	DATA 	Keypress: right
+23.6460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.6460 	EXP 	unnamed ImageStim: image = 'inks\\16.jpg'
+23.6463 	EXP 	Sound  stopped
+23.7460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.7460 	EXP 	unnamed ImageStim: image = 'inks\\17.jpg'
+23.8461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.8461 	EXP 	unnamed ImageStim: image = 'inks\\17.jpg'
+23.9460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+23.9460 	EXP 	unnamed ImageStim: image = 'inks\\17.jpg'
+24.0460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.0460 	EXP 	unnamed ImageStim: image = 'inks\\17.jpg'
+24.1304 	DATA 	Keypress: right
+24.1460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.1460 	EXP 	unnamed ImageStim: image = 'inks\\17.jpg'
+24.2308 	EXP 	Set  sound=fe\poke.wav
+24.2308 	EXP 	Sound  set loops 10
+24.2313 	EXP 	Sound  started
+24.2460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.2460 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.3461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.3461 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.4459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.4459 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.5460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.5460 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.6461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.6461 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.7460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.7460 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.8461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.8461 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.9341 	DATA 	Keypress: right
+24.9460 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+24.9460 	EXP 	unnamed ImageStim: image = 'inks\\18.jpg'
+24.9462 	EXP 	Sound  stopped
+25.0461 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.0461 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.1458 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.1458 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.2459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.2459 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.3459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.3459 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.4459 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.4459 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.5239 	DATA 	Keypress: right
+25.5308 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.5308 	EXP 	unnamed ImageStim: image = 'inks\\19.jpg'
+25.6314 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.6314 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+25.7329 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.7329 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+25.8325 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.8325 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+25.9126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+25.9126 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+26.0127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.0127 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+26.0970 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.0970 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+26.1961 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.1961 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+26.2805 	DATA 	Keypress: right
+26.3002 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.3002 	EXP 	unnamed ImageStim: image = 'inks\\20.jpg'
+26.3909 	EXP 	Set  sound=fe\poke.wav
+26.3910 	EXP 	Sound  set loops 10
+26.3914 	EXP 	Sound  started
+26.4127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.4127 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.5127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.5127 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.6127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.6127 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.7123 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.7123 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.8126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.8126 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.8984 	DATA 	Keypress: right
+26.9126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+26.9126 	EXP 	unnamed ImageStim: image = 'inks\\21.jpg'
+26.9128 	EXP 	Sound  stopped
+27.0052 	EXP 	Set  sound=fe\tiktok.wav
+27.0052 	EXP 	Sound  set loops 10
+27.0057 	EXP 	Sound  started
+27.0126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.0126 	EXP 	unnamed ImageStim: image = 'inks\\22.jpg'
+27.1125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.1125 	EXP 	unnamed ImageStim: image = 'inks\\22.jpg'
+27.2127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.2127 	EXP 	unnamed ImageStim: image = 'inks\\22.jpg'
+27.3127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.3127 	EXP 	unnamed ImageStim: image = 'inks\\22.jpg'
+27.3962 	DATA 	Keypress: right
+27.4127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.4127 	EXP 	unnamed ImageStim: image = 'inks\\22.jpg'
+27.4129 	EXP 	Sound  stopped
+27.5127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.5127 	EXP 	unnamed ImageStim: image = 'inks\\23.jpg'
+27.6127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.6127 	EXP 	unnamed ImageStim: image = 'inks\\23.jpg'
+27.7127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.7127 	EXP 	unnamed ImageStim: image = 'inks\\23.jpg'
+27.8129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.8129 	EXP 	unnamed ImageStim: image = 'inks\\23.jpg'
+27.8941 	DATA 	Keypress: right
+27.9128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+27.9128 	EXP 	unnamed ImageStim: image = 'inks\\23.jpg'
+28.0128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.0128 	EXP 	unnamed ImageStim: image = 'inks\\24.jpg'
+28.1127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.1127 	EXP 	unnamed ImageStim: image = 'inks\\24.jpg'
+28.2129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.2129 	EXP 	unnamed ImageStim: image = 'inks\\24.jpg'
+28.3125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.3125 	EXP 	unnamed ImageStim: image = 'inks\\24.jpg'
+28.3977 	DATA 	Keypress: right
+28.4125 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.4125 	EXP 	unnamed ImageStim: image = 'inks\\24.jpg'
+28.5124 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.5124 	EXP 	unnamed ImageStim: image = 'inks\\25.jpg'
+28.6122 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.6122 	EXP 	unnamed ImageStim: image = 'inks\\25.jpg'
+28.7122 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.7122 	EXP 	unnamed ImageStim: image = 'inks\\25.jpg'
+28.8126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.8126 	EXP 	unnamed ImageStim: image = 'inks\\25.jpg'
+28.9013 	DATA 	Keypress: right
+28.9127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+28.9127 	EXP 	unnamed ImageStim: image = 'inks\\25.jpg'
+29.0005 	EXP 	Set  sound=fe\rain.wav
+29.0005 	EXP 	Sound  set loops 10
+29.0009 	EXP 	Sound  started
+29.0126 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.0126 	EXP 	unnamed ImageStim: image = 'inks\\26.jpg'
+29.1129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.1129 	EXP 	unnamed ImageStim: image = 'inks\\26.jpg'
+29.2130 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.2130 	EXP 	unnamed ImageStim: image = 'inks\\26.jpg'
+29.3129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.3129 	EXP 	unnamed ImageStim: image = 'inks\\26.jpg'
+29.4128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.4128 	EXP 	unnamed ImageStim: image = 'inks\\26.jpg'
+29.4130 	DATA 	Keypress: right
+29.4132 	EXP 	Sound  stopped
+29.5127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.5127 	EXP 	unnamed ImageStim: image = 'inks\\27.jpg'
+29.6129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.6129 	EXP 	unnamed ImageStim: image = 'inks\\27.jpg'
+29.7129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.7129 	EXP 	unnamed ImageStim: image = 'inks\\27.jpg'
+29.8128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.8128 	EXP 	unnamed ImageStim: image = 'inks\\27.jpg'
+29.8951 	DATA 	Keypress: right
+29.9128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+29.9128 	EXP 	unnamed ImageStim: image = 'inks\\27.jpg'
+30.0013 	EXP 	Set  sound=fe\heartbeat.wav
+30.0013 	EXP 	Sound  set loops 10
+30.0017 	EXP 	Sound  started
+30.0127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.0127 	EXP 	unnamed ImageStim: image = 'inks\\28.jpg'
+30.1128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.1128 	EXP 	unnamed ImageStim: image = 'inks\\28.jpg'
+30.2128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.2128 	EXP 	unnamed ImageStim: image = 'inks\\28.jpg'
+30.3127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.3127 	EXP 	unnamed ImageStim: image = 'inks\\28.jpg'
+30.3980 	DATA 	Keypress: right
+30.4128 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.4128 	EXP 	unnamed ImageStim: image = 'inks\\28.jpg'
+30.4130 	EXP 	Sound  stopped
+30.5129 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.5129 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+30.6127 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.6127 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+30.6967 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.6967 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+30.7988 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.7988 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+30.8792 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.8792 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+30.9600 	DATA 	Keypress: right
+30.9793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+30.9793 	EXP 	unnamed ImageStim: image = 'inks\\29.jpg'
+31.0791 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.0791 	EXP 	unnamed ImageStim: image = 'inks\\30.jpg'
+31.1793 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.1793 	EXP 	unnamed ImageStim: image = 'inks\\30.jpg'
+31.2794 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.2794 	EXP 	unnamed ImageStim: image = 'inks\\30.jpg'
+31.3794 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.3794 	EXP 	unnamed ImageStim: image = 'inks\\30.jpg'
+31.4634 	DATA 	Keypress: right
+31.4794 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.4794 	EXP 	unnamed ImageStim: image = 'inks\\30.jpg'
+31.6207 	EXP 	Set  sound=fe\tap_edited.wav
+31.6207 	EXP 	Sound  set loops 10
+31.6212 	EXP 	Sound  started
+31.6293 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.6293 	EXP 	unnamed ImageStim: image = 'inks\\31.jpg'
+31.7293 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.7293 	EXP 	unnamed ImageStim: image = 'inks\\31.jpg'
+31.8294 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.8294 	EXP 	unnamed ImageStim: image = 'inks\\31.jpg'
+31.9153 	DATA 	Keypress: right
+31.9322 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+31.9322 	EXP 	unnamed ImageStim: image = 'inks\\31.jpg'
+31.9329 	EXP 	Sound  stopped
+32.0294 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.0294 	EXP 	unnamed ImageStim: image = 'inks\\32.jpg'
+32.1338 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.1338 	EXP 	unnamed ImageStim: image = 'inks\\32.jpg'
+32.2328 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.2328 	EXP 	unnamed ImageStim: image = 'inks\\32.jpg'
+32.3328 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.3328 	EXP 	unnamed ImageStim: image = 'inks\\32.jpg'
+32.4121 	DATA 	Keypress: right
+32.4321 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.4321 	EXP 	unnamed ImageStim: image = 'inks\\32.jpg'
+32.5631 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.5631 	EXP 	unnamed ImageStim: image = 'inks\\33.jpg'
+32.6638 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.6638 	EXP 	unnamed ImageStim: image = 'inks\\33.jpg'
+32.7630 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.7630 	EXP 	unnamed ImageStim: image = 'inks\\33.jpg'
+32.8630 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.8630 	EXP 	unnamed ImageStim: image = 'inks\\33.jpg'
+32.9512 	DATA 	Keypress: right
+32.9630 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+32.9630 	EXP 	unnamed ImageStim: image = 'inks\\33.jpg'
+33.0972 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+33.0972 	EXP 	unnamed ImageStim: image = 'inks\\34.jpg'
+33.1964 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+33.1964 	EXP 	unnamed ImageStim: image = 'inks\\34.jpg'
+33.2995 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+33.2995 	EXP 	unnamed ImageStim: image = 'inks\\34.jpg'
+33.3824 	DATA 	Keypress: right
+33.3991 	EXP 	unnamed ImageStim: size = array([1405, 1200])
+33.3991 	EXP 	unnamed ImageStim: image = 'inks\\34.jpg'

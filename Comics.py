@@ -1,31 +1,6 @@
 # -----------------------------------------------------------------------
 #
-# (c) Copyright 1997-2013, SensoMotoric Instruments GmbH
-# 
-# Permission  is  hereby granted,  free  of  charge,  to any  person  or
-# organization  obtaining  a  copy  of  the  software  and  accompanying
-# documentation  covered  by  this  license  (the  "Software")  to  use,
-# reproduce,  display, distribute, execute,  and transmit  the Software,
-# and  to  prepare derivative  works  of  the  Software, and  to  permit
-# third-parties to whom the Software  is furnished to do so, all subject
-# to the following:
-# 
-# The  copyright notices  in  the Software  and  this entire  statement,
-# including the above license  grant, this restriction and the following
-# disclaimer, must be  included in all copies of  the Software, in whole
-# or  in part, and  all derivative  works of  the Software,  unless such
-# copies   or   derivative   works   are   solely   in   the   form   of
-# machine-executable  object   code  generated  by   a  source  language
-# processor.
-# 
-# THE  SOFTWARE IS  PROVIDED  "AS  IS", WITHOUT  WARRANTY  OF ANY  KIND,
-# EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
-# MERCHANTABILITY,   FITNESS  FOR  A   PARTICULAR  PURPOSE,   TITLE  AND
-# NON-INFRINGEMENT. IN  NO EVENT SHALL  THE COPYRIGHT HOLDERS  OR ANYONE
-# DISTRIBUTING  THE  SOFTWARE  BE   LIABLE  FOR  ANY  DAMAGES  OR  OTHER
-# LIABILITY, WHETHER  IN CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT
-# OF OR IN CONNECTION WITH THE  SOFTWARE OR THE USE OR OTHER DEALINGS IN
-# THE SOFTWARE.
+# (c) Copyright 2015 Siyan Zhao @ Disney Research Pittsburgh
 #
 # -----------------------------------------------------------------------
 
@@ -61,7 +36,9 @@ def right_pressed(addr, tags, data, source):
 # ---------------------------------------------
 #---- setup connection with OSC
 # ---------------------------------------------
-IPAD_IP = '128.237.217.236'
+IPAD_IP = '128.237.167.81'
+
+
 
 server = OSC.OSCServer(('0.0.0.0', 8000))
 client = OSC.OSCClient()
@@ -131,43 +108,40 @@ print "iViewX API Verion: " + str(systemData.API_MajorVersion) + "." + str(syste
 # ---------------------------------------------
 #---- configure and start calibration
 # ---------------------------------------------
-geom = CREDGeometry(1, 20, 16, 38, "D", 519, 324)
+geom = CREDGeometry(1, 0, 20, 36, "D", 520, 325)
 res = iViewXAPI.iV_SetREDGeometry(byref(geom))
 print "redGeometry " + str(geom.redGeometry)
-#print "geometry name " + str(REDGeometry.setupName)
-#print "geometry stimY " + str(REDGeometry.stimY)
-#print "geometry redStimDisDepth " + str(REDGeometry.redStimDistDepth)
 
-displayDevice = 1
-calibrationData = CCalibration(5, 1, displayDevice, 0, 1, 20, 239, 1, 10, b"")
-
-res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
-print "iV_SetupCalibration " + str(res)
-res = iViewXAPI.iV_Calibrate()
-print "iV_Calibrate " + str(res)
-outputfile = path_data + filename
-iViewXAPI.iV_SaveCalibration(outputfile)
-
-res = iViewXAPI.iV_Validate()
-print "iV_Validate " + str(res)
-
-res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
-print "iV_GetAccuracy " + str(res)
-print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
-print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
-
-while (accuracyData.deviationLX > 1) or (accuracyData.deviationLY > 1):
-    res = iViewXAPI.iV_Calibrate()
-    print "iV_Calibrate " + str(res)
-    outputfile = path_data + filename
-    
-    res = iViewXAPI.iV_Validate()
-    print "iV_Validate " + str(res)
-    
-    res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
-    print "iV_GetAccuracy " + str(res)
-    print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
-    print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
+#displayDevice = 1
+#calibrationData = CCalibration(5, 1, displayDevice, 0, 1, 20, 239, 1, 10, b"")
+#
+#res = iViewXAPI.iV_SetupCalibration(byref(calibrationData))
+#print "iV_SetupCalibration " + str(res)
+#res = iViewXAPI.iV_Calibrate()
+#print "iV_Calibrate " + str(res)
+#outputfile = path_data + filename
+#iViewXAPI.iV_SaveCalibration(outputfile)
+#
+#res = iViewXAPI.iV_Validate()
+#print "iV_Validate " + str(res)
+#
+#res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
+#print "iV_GetAccuracy " + str(res)
+#print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
+#print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
+#
+#while (accuracyData.deviationLX > 1) or (accuracyData.deviationLY > 1):
+#    res = iViewXAPI.iV_Calibrate()
+#    print "iV_Calibrate " + str(res)
+#    outputfile = path_data + filename
+#    
+#    res = iViewXAPI.iV_Validate()
+#    print "iV_Validate " + str(res)
+#    
+#    res = iViewXAPI.iV_GetAccuracy(byref(accuracyData), 1)
+#    print "iV_GetAccuracy " + str(res)
+#    print "deviationXLeft " + str(accuracyData.deviationLX) + " deviationYLeft " + str(accuracyData.deviationLY)
+#    print "deviationXRight " + str(accuracyData.deviationRX) + " deviationYRight " + str(accuracyData.deviationRY)
 
 # ---------------------------------------------
 #---- setup the Window
@@ -215,7 +189,7 @@ data_log = False
 fe_on = False
 trial_clock = core.Clock()
 start_time = 0
-header = ['image', 'start time', 'end time', 'duration']
+header = ['image', 'FE?', 'start time', 'end time', 'duration']
 csv_file = open('data/participant' + expInfo['participant'] + '-' + expInfo['session'] + '.csv', 'w+')
 writer = csv.writer(csv_file)
 writer.writerow(header)
@@ -243,15 +217,14 @@ def close_server():
     st.join()
     print "Done"
     
-def write_txt(img, start, end, dur):
-    msg = [img, start, end, dur]
+def write_txt(img, on_off, start, end, dur):
+    msg = [img, on_off, start, end, dur]
     writer.writerow(msg)
     
 while True:
 
 	# update gaze event 
     res = iViewXAPI.iV_GetEvent(byref(eventData))
-    print "X: " + str(eventData.positionX)
     
 	# update gaze data sample
     res = iViewXAPI.iV_GetSample(byref(sampleData))
@@ -326,16 +299,16 @@ while True:
             fe_on = True
             
         if ((index == 30) and (fe_on == False)):
-            FE = sound.SoundPyo(sound_path+"tap.wav")
+            FE = sound.SoundPyo(sound_path+"tap_edited.wav")
             FE.setLoops(10)
             FE.play()
             fe_on = True
             
-        Shape01.setFillColor([0, 0, 0])
-        sampleData.leftEye.gazeX = sampleData.leftEye.gazeX - 640
-        sampleData.leftEye.gazeY = -1 * (sampleData.leftEye.gazeY - 512)
-        Shape01.setPos([sampleData.leftEye.gazeX - size, sampleData.leftEye.gazeY - size])
-        Shape01.draw()
+#        Shape01.setFillColor([0, 0, 0])
+#        sampleData.leftEye.gazeX = sampleData.leftEye.gazeX - 640
+#        sampleData.leftEye.gazeY = -1 * (sampleData.leftEye.gazeY - 512)
+#        Shape01.setPos([sampleData.leftEye.gazeX - size, sampleData.leftEye.gazeY - size])
+#        Shape01.draw()
 
     #refresh the screen
     window.flip()
@@ -352,22 +325,27 @@ while True:
     elif event.getKeys(["left"]):
         if index == 0:
             continue
-        if (fe_on == True):
-            fe_on = False
-            FE.stop() 
+        print("left")
         end_time = trial_clock.getTime()
         dur = end_time - start_time
-        write_txt(images[index], start_time, end_time, dur)
+        write_txt(images[index], fe_on, start_time, end_time, dur)
         start_time = end_time
         index = index - 1
         iViewXAPI.iV_SendImageMessage(c_char_p(images[index]))
         
+        if (fe_on == True):
+            FE.stop() 
+            fe_on = False
+        
     # check for next images (the [right] key)     
     elif event.getKeys(["right"]):
+        end_time = trial_clock.getTime()
+        dur = end_time - start_time
+        write_txt(images[index], fe_on, start_time, end_time, dur)
+        start_time = end_time
         if (fe_on == True):
-            fe_on = False
             FE.stop()
-            
+            fe_on = False
         #print("Key press to index:" + str(index))
         if index == (len(images)-1):
             print('index' + str(index))
@@ -379,10 +357,6 @@ while True:
             event.clearEvents()
             #window.close()
             core.quit()
-        end_time = trial_clock.getTime()
-        dur = end_time - start_time
-        write_txt(images[index], start_time, end_time, dur)
-        start_time = end_time
         index = index +1
         iViewXAPI.iV_SendImageMessage(c_char_p(images[index]))
 
