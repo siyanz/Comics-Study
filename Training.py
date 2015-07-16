@@ -17,7 +17,7 @@ def right_pressed(addr, tags, data, source):
 # ---------------------------------------------
 #---- setup connection with OSC
 # ---------------------------------------------
-IPAD_IP = '128.237.167.81'
+IPAD_IP = '128.237.164.82'
 
 
 server = OSC.OSCServer(('0.0.0.0', 8000))
